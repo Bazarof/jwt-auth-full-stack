@@ -1,5 +1,5 @@
-using API_Auth.Models;
-using API_Auth.Models.User;
+using Auth_API.Models;
+using Auth_API.Models.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
