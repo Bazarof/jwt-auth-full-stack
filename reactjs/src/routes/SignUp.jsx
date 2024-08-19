@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { API_URL } from '../utils/Constants.js';
+import { API_URL } from '../utils/Constants.jsx';
 import { Navigate, Link, useNavigate } from 'react-router-dom';
-import '../styles/SignUp.css'
 import { useAuth } from '../security/AuthProvider.jsx';
+
+import '../styles/SignUp.css'
 
 export default function SignUp(){
 

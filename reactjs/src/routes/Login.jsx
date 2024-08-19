@@ -1,8 +1,9 @@
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-import '../styles/Login.css'
 import { useState } from 'react';
 import { useAuth } from '../security/AuthProvider';
 import { API_URL } from '../utils/Constants';
+
+import '../styles/Login.css'
 
 export default function Login(){
 
@@ -53,8 +54,8 @@ export default function Login(){
     }
 
     return (
-        <>
-            
-        </>
+        <form className='form-login' >
+
+        </form>
     );
 }
