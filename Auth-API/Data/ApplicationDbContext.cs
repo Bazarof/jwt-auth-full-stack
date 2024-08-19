@@ -1,8 +1,8 @@
-﻿using API_Auth.Models.User;
+﻿using Auth_API.Models.User;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace API_Auth.Data
+namespace Auth_API.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

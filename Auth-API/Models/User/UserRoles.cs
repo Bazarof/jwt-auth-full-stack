@@ -1,4 +1,4 @@
-﻿namespace API_Auth.Models.User
+﻿namespace Auth_API.Models.User
 {
     public static class UserRoles
     {
