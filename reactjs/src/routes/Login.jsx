@@ -54,8 +54,24 @@ export default function Login(){
     }
 
     return (
-        <form className='form-login' >
-
+        <form className='form-login' onSubmit={''}>
+            <h1 className='header-welcome'>WELCOME</h1>
+            <div className='container-input'>
+                <div>
+                    <label className='label-email' htmlFor='email'>Email</label>
+                    <input className='input-email' name='email' />
+                </div>
+                <div>
+                    <label className='label-password' htmlFor='password'>Password</label>
+                    <input type='password' className='input-password' name='password' />
+                </div>
+            </div>
+            <div>
+                <button type='submit' className='form-button' >Login</button>
+            </div>
+            <div>
+                <Link className="link-signup" to="/signup">Sign-Up</Link>
+            </div>
         </form>
     );
 }

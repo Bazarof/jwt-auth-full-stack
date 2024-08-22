@@ -1,7 +1,10 @@
 .form-login {
-    height: 50rem;
-    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 30rem;
+    min-width: 35rem;
     margin: auto;
+    padding: 3rem 6rem;
     background-color: #81D9BD;
     -webkit-box-shadow: 0px 7px 20px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 7px 20px 4px rgba(0,0,0,0.2);
@@ -10,4 +13,48 @@
     -moz-border-radius: 14px 14px 14px 14px;
     -webkit-border-radius: 14px 14px 14px 14px;
     border: 0px solid #000000;
+}
+
+.header-welcome {
+    font-size: 2.5rem;
+}
+
+.container-input {
+    flex: 1;
+    text-align: left;
+}
+
+.label-email, .label-password {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.input-email, .input-password {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    -webkit-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.form-button {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    -webkit-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
+}
+
+.link-signup {
+    color: #006DB5;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: 400; 
 }
