@@ -84,8 +84,32 @@ export default function SignUp(){
     }
 
     return(
-        <>
-
-        </>
+        <form className='form-signup' onSubmit={''}>
+            <h1 className='header-welcome'>WELCOME</h1>
+            <div className='container-input'>
+                <div>
+                    <label className='label-username' htmlFor='username'>Email</label>
+                    <input className='input-username' name='username' onChange={(e) => setUsername(e.target.value)}/>
+                </div>
+                <div>
+                    <label className='label-email' htmlFor='email'>Email</label>
+                    <input className='input-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
+                </div>
+                <div>
+                    <label className='label-password' htmlFor='password'>Password</label>
+                    <input type='password' className='input-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
+                </div>
+                <div>
+                    <label className='label-confirm-password' htmlFor='confirm-password'>Confirm your password</label>
+                    <input type='password' className='input-confirm-password' name='confirm-password' onChange={(e) => setConfirmPassword(e.target.value)}/>
+                </div>
+            </div>
+            <div>
+                <button type='submit' className='form-button' >Login</button>
+            </div>
+            <div>
+                <Link className="link-signup" to="/signup">Sign-Up</Link>
+            </div>
+        </form>
     );
 }

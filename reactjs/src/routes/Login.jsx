@@ -54,16 +54,16 @@ export default function Login(){
     }
 
     return (
-        <form className='form-login' onSubmit={''}>
+        <form className='form-login' onSubmit={handleSubmit}>
             <h1 className='header-welcome'>WELCOME</h1>
             <div className='container-input'>
                 <div>
                     <label className='label-email' htmlFor='email'>Email</label>
-                    <input className='input-email' name='email' />
+                    <input className='input-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div>
                     <label className='label-password' htmlFor='password'>Password</label>
-                    <input type='password' className='input-password' name='password' />
+                    <input type='password' className='input-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
                 </div>
             </div>
             <div>
