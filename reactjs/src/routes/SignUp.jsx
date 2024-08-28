@@ -85,30 +85,30 @@ export default function SignUp(){
 
     return(
         <form className='form-signup' onSubmit={''}>
-            <h1 className='header-welcome'>WELCOME</h1>
+            <h1 className='header-welcome'>Sign Up</h1>
             <div className='container-input'>
                 <div>
-                    <label className='label-username' htmlFor='username'>Email</label>
-                    <input className='input-username' name='username' onChange={(e) => setUsername(e.target.value)}/>
+                    <label htmlFor='username'>Username</label>
+                    <input className='input-signup-username' name='username' onChange={(e) => setUsername(e.target.value)}/>
                 </div>
                 <div>
-                    <label className='label-email' htmlFor='email'>Email</label>
-                    <input className='input-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
+                    <label htmlFor='email'>Email</label>
+                    <input className='input-signup-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div>
                     <label className='label-password' htmlFor='password'>Password</label>
-                    <input type='password' className='input-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
+                    <input type='password' className='input-signup-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 <div>
                     <label className='label-confirm-password' htmlFor='confirm-password'>Confirm your password</label>
-                    <input type='password' className='input-confirm-password' name='confirm-password' onChange={(e) => setConfirmPassword(e.target.value)}/>
+                    <input type='password' className='input-signup-confirm-password' name='confirm-password' onChange={(e) => setConfirmPassword(e.target.value)}/>
                 </div>
             </div>
             <div>
-                <button type='submit' className='form-button' >Login</button>
+                <button type='submit' className='form-button' >Register</button>
             </div>
             <div>
-                <Link className="link-signup" to="/signup">Sign-Up</Link>
+                <Link className="link-signup" to="/login">Log-In</Link>
             </div>
         </form>
     );

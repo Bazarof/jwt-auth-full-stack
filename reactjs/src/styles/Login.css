@@ -24,24 +24,9 @@
     text-align: left;
 }
 
-.label-email, .label-password {
-    font-weight: 700;
-    font-size: 1.6rem;
-}
-
-.input-email, .input-password {
+.input-login-email, .input-login-password {
     margin-bottom: 1.5rem;
     width: 100%;
-    font-size: 1.5rem;
-    -webkit-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
-    box-shadow: 0px 10px 45px 0px rgba(0,0,0,0.2);
-    border: none;
-    outline: none;
-    border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border: 0px solid #000000;
 }
 
 .form-button {
