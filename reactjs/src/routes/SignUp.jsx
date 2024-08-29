@@ -85,7 +85,7 @@ export default function SignUp(){
 
     return(
         <form className='form-signup' onSubmit={''}>
-            <h1 className='header-welcome'>Sign Up</h1>
+            <h1>Sign Up</h1>
             <div className='container-input'>
                 <div>
                     <label htmlFor='username'>Username</label>

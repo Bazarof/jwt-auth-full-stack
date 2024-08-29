@@ -55,7 +55,7 @@ export default function Login(){
 
     return (
         <form className='form-login' onSubmit={handleSubmit}>
-            <h1 className='header-welcome'>WELCOME</h1>
+            <h1>WELCOME</h1>
             <div className='container-input'>
                 <div>
                     <label className='label-email' htmlFor='email'>Email</label>
