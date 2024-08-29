@@ -58,12 +58,12 @@ export default function Login(){
             <h1>WELCOME</h1>
             <div className='container-input'>
                 <div>
-                    <label className='label-email' htmlFor='email'>Email</label>
-                    <input className='input-login-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
+                    <label className='label-email'>Email</label>
+                    <input className='input-login-email' onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div>
-                    <label className='label-password' htmlFor='password'>Password</label>
-                    <input type='password' className='input-login-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
+                    <label className='label-password'>Password</label>
+                    <input type='password' className='input-login-password' onChange={(e) => setPassword(e.target.value)}/>
                 </div>
             </div>
             <div>

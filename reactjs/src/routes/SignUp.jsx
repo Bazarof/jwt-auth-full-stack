@@ -84,24 +84,24 @@ export default function SignUp(){
     }
 
     return(
-        <form className='form-signup' onSubmit={''}>
+        <form className='form-signup' onSubmit={handleSubmit}>
             <h1>Sign Up</h1>
             <div className='container-input'>
                 <div>
-                    <label htmlFor='username'>Username</label>
-                    <input className='input-signup-username' name='username' onChange={(e) => setUsername(e.target.value)}/>
+                    <label>Username</label>
+                    <input className='input-signup-username' onChange={(e) => setUsername(e.target.value)}/>
                 </div>
                 <div>
-                    <label htmlFor='email'>Email</label>
-                    <input className='input-signup-email' name='email' onChange={(e) => setEmail(e.target.value)}/>
+                    <label>Email</label>
+                    <input className='input-signup-email' onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div>
-                    <label className='label-password' htmlFor='password'>Password</label>
-                    <input type='password' className='input-signup-password' name='password' onChange={(e) => setPassword(e.target.value)}/>
+                    <label className='label-password'>Password</label>
+                    <input type='password' className='input-signup-password' onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 <div>
-                    <label className='label-confirm-password' htmlFor='confirm-password'>Confirm your password</label>
-                    <input type='password' className='input-signup-confirm-password' name='confirm-password' onChange={(e) => setConfirmPassword(e.target.value)}/>
+                    <label className='label-confirm-password'>Confirm your password</label>
+                    <input type='password' className='input-signup-confirm-password' onChange={(e) => setConfirmPassword(e.target.value)}/>
                 </div>
             </div>
             <div>
