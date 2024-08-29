@@ -38,6 +38,12 @@ export default function Login(){
 
             }else{
 
+                //const error = (await response.json()).message;
+
+                setErrorResponse((await response.json()).message);
+
+                //console.log(error);
+
             }
 
         }catch(error){
@@ -56,6 +62,9 @@ export default function Login(){
     return (
         <form className='form-login' onSubmit={handleSubmit}>
             <h1>WELCOME</h1>
+
+            {!!errorResponse && <div className='error-response'>{errorResponse}</div>}
+
             <div className='container-input'>
                 <div>
                     <label className='label-email'>Email</label>

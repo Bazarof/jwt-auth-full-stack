@@ -53,7 +53,7 @@ namespace Auth_API.Controllers
                     Token = new JwtSecurityTokenHandler().WriteToken(RawToken),
                 });
             }
-            return Unauthorized();
+            return StatusCode(StatusCodes.Status401Unauthorized, new Response {Status = "Error", Message = "Bad email or password, please try again."});
         }
 
         [HttpPost]

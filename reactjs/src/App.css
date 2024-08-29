@@ -42,3 +42,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.error-response {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #E0C5BF;
+  font-size: 1.3rem ;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid #E07D6A;
+}

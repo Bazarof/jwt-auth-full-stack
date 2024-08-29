@@ -1,1 +1,1 @@
-export const API_URL = "https://localhost:7160/api/authenticate";
+export const API_URL = "https://localhost:7275/api/authenticate";
