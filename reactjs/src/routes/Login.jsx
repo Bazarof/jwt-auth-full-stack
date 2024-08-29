@@ -38,11 +38,7 @@ export default function Login(){
 
             }else{
 
-                //const error = (await response.json()).message;
-
                 setErrorResponse((await response.json()).message);
-
-                //console.log(error);
 
             }
 
