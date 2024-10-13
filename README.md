@@ -12,10 +12,10 @@
 </ul>
 
 <h2>Swagger</h2>
-![swagger-auth](https://github.com/user-attachments/assets/9749c9b5-b7d0-4a67-b55e-f305f07bd1bb)
+<img src="https://github.com/user-attachments/assets/9749c9b5-b7d0-4a67-b55e-f305f07bd1bb"/>
 
 <h2>Log in page</h2>
-![react-login](https://github.com/user-attachments/assets/fa85ded8-d8b0-4210-875f-07d3d38f32af)
+<img src="https://github.com/user-attachments/assets/fa85ded8-d8b0-4210-875f-07d3d38f32af"/>
 
 <h2>Sign up page</h2>
-![react-signup](https://github.com/user-attachments/assets/46b35c73-1a68-4afe-ba14-75cdd825fed7)
+<img src="https://github.com/user-attachments/assets/46b35c73-1a68-4afe-ba14-75cdd825fed7"/>
